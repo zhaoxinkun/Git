@@ -69,31 +69,31 @@
 
 > 中央服务器一坏，直接完蛋
 
-![](image/image_oSMGT8VXe7.png)
+![](image/image_PaCYKHpDxk.png)
 
 ## 文件冲突
 
 > 谁后，谁就会覆盖前者
 
-![](image/image_pNHa2HtxgV.png)
+![](image/image_ABPV5PTMm5.png)
 
 ## VSS软件
 
 > 文件上锁，但只能担任操作多人查看
 
-![](image/image_mwGe8y7aFZ.png)
+![](image/image_MRER_P8E4x.png)
 
 ## CVS, SVN
 
 > 对每一行进行比对，然后都写上去，对同一行进行修改就完蛋了
 
-![](image/image_5EPq-dbLcF.png)
+![](image/image_srhLCwF-Be.png)
 
 ## 分布式
 
-![](image/image_bB33Lj-itP.png)
+![](image/image_cqvWrnGvSh.png)
 
-![](image/image_Dv9UJP7ZL2.png)
+![](image/image_Uh51b9jGec.png)
 
 ## 基本命令
 
@@ -114,22 +114,7 @@ git clone ...
 + 后续拉取
   => 打开命令行, 切换目录到项目更目录(你上回 clone 下来的那个目录内)
   => 输入指令: git pull
-  
-
-#提交到仓库中
-git commit -m "提示信息"
-#修改最新一次提交的信息
-git commit --amend
-
-#提交到远程仓库
-git push
-
-#查看状态
-git status
-
-
-#撤销操作
-git rm --cached a.js
+ 
 
 ```
 
@@ -174,6 +159,20 @@ git ls-files -s
 
 #查看暂存区文件内容
 git cat-file -p 6e9a94 
+
+#提交到仓库中
+git commit -m "提示信息"
+#修改最新一次提交的信息
+git commit --amend
+
+#提交到远程仓库
+git push
+
+#查看状态
+git status
+
+#撤销操作
+git rm --cached a.js
 
 ```
 
@@ -326,7 +325,6 @@ git remote -v
  查看未合并的分支（因为你拓展了内容，所以指针后不同了）
  + git branch --no-merged
  
- 
 7.rebase处理分支,使分支的指针更新
 
 8.更改主要分支
@@ -354,7 +352,7 @@ git push --set-upstream origin dev
 
 ```
 
-![](image/image_wxgPL48RXn.png)
+![](image/image_siz8fS2PNu.png)
 
 ## Stashing
 
