@@ -1,5 +1,5 @@
 # Git
-我修改了
+
 ## 目录
 
 - [资源网址](#资源网址)
@@ -23,6 +23,8 @@
 - [Tag标签](#Tag标签)
 - [打包压缩](#打包压缩)
 - [SSH](#SSH)
+
+已整理完毕
 
 ## 资源网址
 
@@ -69,31 +71,31 @@
 
 > 中央服务器一坏，直接完蛋
 
-![](image/image_PaCYKHpDxk.png)
+![](image/image_BhPRKgM02Q.png)
 
 ## 文件冲突
 
 > 谁后，谁就会覆盖前者
 
-![](image/image_ABPV5PTMm5.png)
+![](image/image_wdxBsIJ-Wp.png)
 
 ## VSS软件
 
 > 文件上锁，但只能担任操作多人查看
 
-![](image/image_MRER_P8E4x.png)
+![](image/image_s4x7-Qk3ZW.png)
 
 ## CVS, SVN
 
 > 对每一行进行比对，然后都写上去，对同一行进行修改就完蛋了
 
-![](image/image_srhLCwF-Be.png)
+![](image/image_t7nHihPIhp.png)
 
 ## 分布式
 
-![](image/image_cqvWrnGvSh.png)
+![](image/image_PBjDHsKvCt.png)
 
-![](image/image_Uh51b9jGec.png)
+![](image/image_ijnk4ZQdEu.png)
 
 ## 基本命令
 
@@ -114,7 +116,6 @@ git clone ...
 + 后续拉取
   => 打开命令行, 切换目录到项目更目录(你上回 clone 下来的那个目录内)
   => 输入指令: git pull
- 
 
 ```
 
@@ -352,11 +353,11 @@ git push --set-upstream origin dev
 
 ```
 
-![](image/image_siz8fS2PNu.png)
+![](image/image_PnoB--wRNj.png)
 
 ## Stashing
 
-临时存储
+> 临时存储
 
 ```bash
 #在当前分支中，有内容add进入暂存区了，但是没有ocmmit，然后你想切换到别的分支是不可以的
